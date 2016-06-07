@@ -1,18 +1,30 @@
 /*
-Copyright (c) 2003-2014, CKSource - Frederico Knabben. All rights reserved.
+Copyright (c) 2003-2016, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.md or http://ckeditor.com/license
 */
 
 body
 {
 	/* Font */
-	font-family: "soleil","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 16px;
+	font-family: sans-serif, Arial, Verdana, "Trebuchet MS";
+	font-size: 12px;
 
 	/* Text color */
-	color: #50595c;
+	color: #333;
 
-	margin: 6px 12px;
+	/* Remove the background color to make it transparent */
+	background-color: #fff;
+
+	margin: 20px;
+}
+
+.cke_editable
+{
+	font-size: 13px;
+	line-height: 1.6;
+
+	/* Fix for missing scrollbars with RTL texts. (#10488) */
+	word-wrap: break-word;
 }
 
 blockquote
@@ -85,8 +97,6 @@ pre
 	white-space: pre-wrap; /* CSS 2.1 */
 	word-wrap: break-word; /* IE7 */
 	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	-webkit-tab-size: 4;
 	tab-size: 4;
 }
 
