@@ -15,4 +15,5 @@ CKEDITOR.editorConfig = function( config ) {
     config.resize_enabled = false;
     config.forcePasteAsPlainText = true;
     config.contentsCss = '/../../styles/main.min.css';
+    config.toolbar = [[ 'Bold','Italic','Underline'],['Format'],[ 'NumberedList','BulletedList'],['Undo', 'Redo'],['Image'],['Link','Unlink'],['Maximize']]
 };
