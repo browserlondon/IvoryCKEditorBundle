@@ -59,9 +59,10 @@ The visual representation of a rich combo widget looks as follows:
     display: inline-block;
     float: left;
     margin-right: 5px;
-    border: 1px solid $hr-border;
-    border-radius: $border-radius;
+    // border: 1px solid $hr-border;
+    // border-radius: $border-radius;
     background: #fff;
+    padding: 3px;
 }
 
 /* Different states of the container. */
