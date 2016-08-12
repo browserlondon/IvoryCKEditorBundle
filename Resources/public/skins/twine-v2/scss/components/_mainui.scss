@@ -95,6 +95,7 @@ Special outer level classes used in this file:
     padding: 3px 6px;
     /* Allow breaking toolbars when in a narrow editor. (#9947) */
     white-space: normal;
+    background-color: $white;
 }
 
 .cke_contents, .cke_editable {
